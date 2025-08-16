@@ -20,5 +20,8 @@ clearInterval(itv);}
 }
 ,500);
 function main() {
-var realismScript = document.createElement('script'); realismScript.src="https://raw.githack.com/NVB9ALT/Realism-pack./main/main.js";document.body.appendChild(realismScript);realismScript.onload = function(){realismGo()};
-};
+    var realismScript = document.createElement('script');
+    realismScript.src = "https://raw.githubusercontent.com/Hydra777777/Realism-pack/refs/heads/main/main.js";
+    document.body.appendChild(realismScript);
+    realismScript.onload = function(){realismGo()};
+}
