@@ -1,16 +1,11 @@
 //Consistency
 function realismGo() {
-   console.log("Realism Pack running")
-   ui.notification.show("This addon is not longer being updated. At some point I'll have an addon manager that allows you to *select* which of the Realism Pack's </br> features you would like to use.")
+   console.log("Realism Pack running");
+   ui.notification.show("This addon is not longer being updated. At some point I'll have an addon manager that allows you to *select* which of the Realism Pack's </br> features you would like to use.");
 }
 
 console.log("Original scripts for immersion SFX, stall buffet, carrier catapults, shaders, and lift-based wingflex from AriakimTaiyo, Livery Selector and 3.5+ spoilers arming from Kolos26");
 
-
-function gBreath() {
-   if (geofs.animation.values.loadFactor >= 3) {
-audio.impl.html5.playFile(null)
-	}
 }
 function flankerStall() {
    if (geofs.aircraft.instance.id == 18 && geofsAddonAircraft.isSu27 == 1 && geofs.animation.values.cobraMode == 1) {
@@ -18,7 +13,6 @@ audio.impl.html5.playFile("https://142420819-645052386429616373.preview.editmysi
 	}
 }
 gBr
-gBreathInt = setInterval(function(){gBreath()},3500)
 flankerStallInt = setInterval(function(){flankerStall()},3000)
 
 /* The chat website used for this is broken at this time :(
