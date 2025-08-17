@@ -6,12 +6,6 @@ function realismGo() {
 
 console.log("Original scripts for immersion SFX, stall buffet, carrier catapults, shaders, and lift-based wingflex from AriakimTaiyo, Livery Selector and 3.5+ spoilers arming from Kolos26");
 
-
-function gBreath() {
-   if (geofs.animation.values.loadFactor >= 3) {
-audio.impl.html5.playFile("")
-	}
-}
 function flankerStall() {
    if (geofs.aircraft.instance.id == 18 && geofsAddonAircraft.isSu27 == 1 && geofs.animation.values.cobraMode == 1) {
 audio.impl.html5.playFile("https://142420819-645052386429616373.preview.editmysite.com/uploads/1/4/2/4/142420819/flankerstall.m4a")
