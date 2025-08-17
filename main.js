@@ -9,7 +9,7 @@ console.log("Original scripts for immersion SFX, stall buffet, carrier catapults
 
 function gBreath() {
    if (geofs.animation.values.loadFactor >= 3) {
-audio.impl.html5.playFile("https://142420819-645052386429616373.preview.editmysite.com/uploads/1/4/2/4/142420819/cutgbreath.mp3")
+audio.impl.html5.playFile("")
 	}
 }
 function flankerStall() {
